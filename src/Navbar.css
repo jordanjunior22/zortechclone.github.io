@@ -1,0 +1,46 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+
+}
+.logo >img{
+    width: 280px;
+    height: 70px;
+    margin: 0rem 0rem 0rem 8rem;    
+
+}
+.nav_links{
+    display: flex;
+    margin: 0rem 8rem 0rem 0rem; 
+    color: white;
+       
+}
+.nav_links>h3{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    font-weight: 400;
+    font-size: 15px;
+}
+.nav_links>Link{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav_links>h3:hover{
+    border-bottom: 3px solid #F6911D;
+}
+
+@media screen and (max-width: 769px){
+    .logo >img{
+        width: 240px;
+        height: 40px;
+        margin-right: 1rem;
+    }
+}

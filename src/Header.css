@@ -1,0 +1,71 @@
+.header{
+  background-image: url('file:///C:/Users/Hey%20Junior/Desktop/zortech/zortech/src/assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.header >p{
+    color: white;
+    max-width: 200px;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 5rem 0rem 0rem 8rem;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+button{
+    margin: 2rem 0rem 0rem 8rem;
+    background-color:#F6911D;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    transform: 0.5s ease-out;
+    cursor: pointer; 
+    font-weight: 800;   
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+    
+}
+button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+.expand_more{
+    position: absolute;
+    margin-top: 12rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50rem;
+    color: white;
+    cursor: pointer;
+
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .header >p{
+      
+      font-size: 40px;
+      font-weight: 400;
+  }
+  }

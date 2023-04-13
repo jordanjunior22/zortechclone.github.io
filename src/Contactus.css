@@ -1,0 +1,19 @@
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 1rem;
+}
+.contactus > input{
+    height: 30px;
+    width: 700px;
+    margin-top: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: lightblue;
+    padding-top: 10px;
+    
+}

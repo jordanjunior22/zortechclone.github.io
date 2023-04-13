@@ -1,0 +1,56 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 100vh;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.features h3{
+    opacity: 0.7;
+    font-weight: 70;
+}
+
+.features li{
+    opacity: 0.5;
+    font-weight: 70;
+    padding: 5px;
+}
+.staff_recruit{
+    max-width: 400px;
+    
+}
+.staff_recruit p{
+     opacity: 0.5;
+}
+.industry_specialism{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.empty{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.title{
+    font-size: 50px;
+    opacity: 0.6;
+    margin-top: 20px;
+    
+}
+.title > h3{
+    font-weight: 80;
+}
+
+
